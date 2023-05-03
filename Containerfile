@@ -17,6 +17,11 @@ RUN mkdir /tmp/scripts
 COPY scripts /tmp/scripts
 RUN find /tmp/scripts -type f -exec chmod +x {} \;
 
+# copy post-install scripts
+RUN mkdir /tmp/post-install
+COPY post-install /tmp/post-install
+RUN find /tmp/post-install -type f -exec chmod +x {} \;
+
 COPY ${RECIPE} /usr/etc/ublue-recipe.yml
 
 # yq used in build.sh and the setup-flatpaks recipe to read the recipe.yml

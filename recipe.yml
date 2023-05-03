@@ -39,7 +39,14 @@ rpms:
   - python3-pip
   - libadwaita
   - sddm
+  - xorg-x11-server-Xwayland
+  - xdg-desktop-portal-hyprland
   - hyprland
+  - polkit-gnome
+  - gnome-keyring
+  - wl-clipboard
+  - gamescope
+  - qt5ct
   - waybar
   - kanshi
   - swaylock

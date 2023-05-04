@@ -56,6 +56,7 @@ rpms:
   - kitty
   - thunar
   - imv
+  - light
 
 # These Flatpaks (from flathub) will be available for install on boot
 # If you leave this empty you can use yafti for post-boot installation

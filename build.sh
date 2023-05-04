@@ -11,6 +11,10 @@ echo "---"
 # remove the default firefox (from fedora) in favor of the flatpak
 rpm-ostree override remove firefox firefox-langpacks
 
+# temporarily remove nvidia drivers before installing Hyprland due to dependency issues
+# they will be reinstalled with the other rpms
+rpm-ostree override remove xorg-x11-drv-nvidia-power xorg-x11-drv-nvidia
+
 repos=$(yq '.extrarepos[]' < /usr/etc/ublue-recipe.yml)
 if [[ -n "$repos" ]]; then
     echo "-- Adding repos defined in recipe.yml --"

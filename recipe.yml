@@ -45,7 +45,6 @@ rpms:
   - polkit-gnome
   - gnome-keyring
   - wl-clipboard
-  - gamescope
   - qt5ct
   - waybar
   - kanshi

@@ -42,11 +42,11 @@ rpms:
   - xorg-x11-server-Xwayland
   - xdg-desktop-portal-hyprland
   - hyprland
+  - waybar-hyprland
   - polkit-gnome
   - gnome-keyring
   - wl-clipboard
   - qt5ct
-  - waybar
   - kanshi
   - swaylock
   - swayidle

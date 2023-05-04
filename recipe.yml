@@ -55,6 +55,7 @@ rpms:
   - rofi
   - kitty
   - thunar
+  - tumbler
   - imv
   - light
 

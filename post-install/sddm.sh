@@ -6,8 +6,8 @@ systemctl enable sddm.service
 
 # Theme
 mkdir -p /usr/share/sddm/themes
-git clone https://framagit.org/MarianArlt/sddm-sugar-candyu.git /usr/share/sddm/themes
-cat <<EOF > /usr/lib/sddm/sddm.conf.d/sddm.conf
+git clone https://framagit.org/MarianArlt/sddm-sugar-candy.git /usr/share/sddm/themes
+cat <<EOF > /etc/sddm.conf.d/50-theme.conf
 [Theme]
 Current=sugar-candy
 EOF

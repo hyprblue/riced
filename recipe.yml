@@ -28,6 +28,7 @@ scripts:
 post-install:
   - sddm.sh
   - hyprland.sh
+  - grimblast.sh
 
 # a list of urls of .repo files that should be added to your system
 # this is the proper way to add copr repos to your image

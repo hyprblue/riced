@@ -47,7 +47,7 @@ rpms:
   - waybar-hyprland
   - sddm
   - qt5‑qtgraphicaleffects
-  - qt5‑qtquickcontrols2
+  - qt5‑qtquickcontrols
   - lxqt-policykit
   - gnome-keyring
   - wl-clipboard

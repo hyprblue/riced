@@ -2,11 +2,11 @@
 # If you are looking at this file in your root directory on your computer, editing it does nothing.
 
 # The image will be at ghcr.io/yourusername/name
-name: gaming
+name: riced
 
 # The native container image to build on top of
 # Warning: Non-uBlue images might function unexpectly
-base-image: ghcr.io/hyprblue/main
+base-image: ghcr.io/hyprblue/gaming
 
 # What fedora version to use. Use an explicit version or `latest`.
 # If you use `latest`, you will be automatically updated
@@ -15,7 +15,7 @@ base-image: ghcr.io/hyprblue/main
 fedora-version: latest
 
 # This description will be visible in the container metadata
-description: The gaming-focused version of Hyprblue.
+description: My personal riced image based on hyprblue/gaming.
 
 # These scripts will be executed during the container build
 # Place scripts in scripts/ and put the corresponding filename here

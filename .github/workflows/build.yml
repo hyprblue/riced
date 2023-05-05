@@ -1,4 +1,4 @@
-name: build-hyprblue-gaming
+name: build-hyprblue-riced
 on:
   pull_request:
     branches:

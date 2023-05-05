@@ -46,6 +46,9 @@ rpms:
   - xdg-user-dirs
   - waybar-hyprland
   - sddm
+  - qt5‑qtgraphicaleffects
+  - qt5‑qtquickcontrols2
+  - qt5‑qtsvg
   - lxqt-policykit
   - gnome-keyring
   - wl-clipboard

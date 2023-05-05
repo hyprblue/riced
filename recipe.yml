@@ -40,10 +40,16 @@ remove:
 # These rpms will be installed from the fedora repository
 # using rpm-ostree and will be preinstalled in the final image
 rpms:
-# - example
+  - nautilus
 
 # These Flatpaks (from flathub) will be available for install on boot
 # If you leave this empty you can use yafti for post-boot installation
 flatpaks:
+  - com.getmailspring.Mailspring
+  - com.github.GradienceTeam.Gradience
+  - com.github.wwmm.easyeffects
   - com.microsoft.Edge
+  - com.spotify.Client
+  - io.github.celluloid_player.Celluloid
   - md.obsidian.Obsidian
+  - org.openrgb.OpenRGB

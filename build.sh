@@ -13,7 +13,10 @@ rpm-ostree override remove firefox firefox-langpacks
 
 # temporarily remove nvidia drivers before installing Hyprland due to dependency issues
 # they will be reinstalled with the other rpms
-rpm-ostree override remove xorg-x11-drv-nvidia-power xorg-x11-drv-nvidia
+image_name=$(yq '.name' < /usr/etc/ublue-recipe.yml)
+if [[ "$image_name" == "nvidia" ]]; then
+    rpm-ostree override remove xorg-x11-drv-nvidia-power xorg-x11-drv-nvidia
+fi
 
 repos=$(yq '.extrarepos[]' < /usr/etc/ublue-recipe.yml)
 if [[ -n "$repos" ]]; then

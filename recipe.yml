@@ -33,6 +33,7 @@ post-install:
 # this is the proper way to add copr repos to your image
 extrarepos:
   - https://copr.fedorainfracloud.org/coprs/solopasha/hyprland/repo/fedora-38/solopasha-hyprland-fedora-38.repo
+  - https://copr.fedorainfracloud.org/coprs/eddsalkield/swaylock-effects/repo/fedora-38/eddsalkield-swaylock-effects-fedora-38.repo
 
 # These rpms will be installed from the fedora repository
 # using rpm-ostree and will be preinstalled in the final image
@@ -41,14 +42,18 @@ rpms:
   - libadwaita
   - hyprland
   - xdg-desktop-portal-hyprland
+  - xdg-user-dirs
   - waybar-hyprland
   - sddm
-  - polkit-gnome
+  - lxqt-policykit
   - gnome-keyring
   - wl-clipboard
+  - grim
+  - slurp
+  - swappy
   - qt5ct
   - kanshi
-  - swaylock
+  - swaylock-effects
   - swayidle
   - mako
   - rofi

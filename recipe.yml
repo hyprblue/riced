@@ -52,4 +52,5 @@ flatpaks:
   - com.spotify.Client
   - io.github.celluloid_player.Celluloid
   - md.obsidian.Obsidian
+  - org.bionus.Grabber
   - org.openrgb.OpenRGB

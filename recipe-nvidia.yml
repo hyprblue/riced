@@ -49,5 +49,8 @@ flatpaks:
   - com.github.GradienceTeam.Gradience
   - com.github.wwmm.easyeffects
   - com.microsoft.Edge
+  - com.spotify.Client
+  - io.github.celluloid_player.Celluloid
   - md.obsidian.Obsidian
+  - org.bionus.Grabber
   - org.openrgb.OpenRGB

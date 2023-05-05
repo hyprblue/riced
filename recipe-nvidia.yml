@@ -28,6 +28,7 @@ scripts:
 post-install:
   - sddm.sh
   - hyprland.sh
+  - hyprland-nvidia.sh
   - grimblast.sh
 
 # a list of urls of .repo files that should be added to your system

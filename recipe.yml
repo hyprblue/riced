@@ -26,7 +26,7 @@ scripts:
 # An example use case it to enable services
 # Place these scripts in post-install/ and put the corresponding filename here
 post-install:
-  - kargs.sh
+# - example.sh
 
 # a list of urls of .repo files that should be added to your system
 # this is the proper way to add copr repos to your image

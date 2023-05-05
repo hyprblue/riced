@@ -1,6 +1,6 @@
 # Hyprblue: Personal Riced Version
 
-[![build-hyprblue-riced](https://github.com/stephenreynolds/riced/actions/workflows/build.yml/badge.svg)](https://github.com/stephenreynolds/riced/actions/workflows/build.yml)
+[![build-hyprblue-riced](https://github.com/hyprblue/riced/actions/workflows/build.yml/badge.svg)](https://github.com/hyprblue/riced/actions/workflows/build.yml)
 
 This is my personal riced Hyprblue image based on hyprblue/gaming.
 

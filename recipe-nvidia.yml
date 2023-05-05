@@ -39,12 +39,12 @@ extrarepos:
 rpms:
   - python3-pip
   - libadwaita
-  - sddm
-  - xdg-desktop-portal-hyprland
   - hyprland
   - xorg-x11-drv-nvidia
   - xorg-x11-drv-nvidia-power
+  - xdg-desktop-portal-hyprland
   - waybar-hyprland
+  - sddm
   - polkit-gnome
   - gnome-keyring
   - wl-clipboard

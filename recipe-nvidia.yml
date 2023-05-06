@@ -20,7 +20,7 @@ description: My personal riced image based on hyprland/gaming-nvidia.
 # These scripts will be executed during the container build
 # Place scripts in scripts/ and put the corresponding filename here
 scripts:
-#  - example.sh
+  - insync.sh
 
 # The scripts will be executed after packages are installed
 # An example use case it to enable services
@@ -41,6 +41,7 @@ remove:
 # using rpm-ostree and will be preinstalled in the final image
 rpms:
   - nautilus
+  - insync
 
 # These Flatpaks (from flathub) will be available for install on boot
 # If you leave this empty you can use yafti for post-boot installation

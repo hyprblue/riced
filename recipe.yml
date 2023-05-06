@@ -35,6 +35,7 @@ extrarepos:
 
 # These packages will be removed before the installing packages
 remove:
+  - tumbler
   - thunar
   - htop
 

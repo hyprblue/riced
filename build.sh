@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # run scripts
 echo "-- Running scripts defined in recipe.yml --"
 buildscripts=$(yq '.scripts[]' < /usr/etc/ublue-recipe.yml)
@@ -19,6 +20,7 @@ echo "---"
 repos=$(yq '.extrarepos[]' < /usr/etc/ublue-recipe.yml)
 if [[ -n "$repos" ]]; then
     echo "-- Adding repos defined in recipe.yml --"
+    cp -r /usr/etc/yum.repos.d/* /etc/yum.repos.d/; \
     for repo in $(echo -e "$repos"); do \
         wget $repo -P /etc/yum.repos.d/; \
     done

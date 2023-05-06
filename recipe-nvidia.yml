@@ -43,7 +43,6 @@ remove:
 # using rpm-ostree and will be preinstalled in the final image
 rpms:
   - nautilus
-  - insync
   - btop
 
 # These Flatpaks (from flathub) will be available for install on boot

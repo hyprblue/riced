@@ -1,13 +1,10 @@
 #!/usr/bin/sh
 
-rpm --import https://d2t3ff60b2tol4.cloudfront.net/repomd.xml.key
+mkdir /tmp/insync
 
-cat <<EOF > /etc/yum.repos.d/insync.repo
-[insync]
-name=insync repo
-baseurl=http://yum.insync.io/fedora/38/
-gpgcheck=1
-gpgkey=https://d2t3ff60b2tol4.cloudfront.net/repomd.xml.key
-enabled=1
-metadata_expire=120m
-EOF
+wget https://cdn.insynchq.com/builds/linux/insync-3.8.5.50499-fc38.x86_64.rpm -o /tmp/insync/insync.rpm
+wget https://cdn.insynchq.com/builds/linux/insync-nautilus-3.8.2.50468-1.noarch.rpm -o /tmp/insync/insync-nautilus.rpm
+
+rpm-ostree install \
+    /tmp/insync/insync.rpm \
+    /tmp/insync/insync-nautilus.rpm

@@ -36,12 +36,14 @@ extrarepos:
 # These packages will be removed before the installing packages
 remove:
   - thunar
+  - htop
 
 # These rpms will be installed from the fedora repository
 # using rpm-ostree and will be preinstalled in the final image
 rpms:
   - nautilus
   - insync
+  - btop
 
 # These Flatpaks (from flathub) will be available for install on boot
 # If you leave this empty you can use yafti for post-boot installation

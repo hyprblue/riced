@@ -5,7 +5,7 @@ rpm --import https://d2t3ff60b2tol4.cloudfront.net/repomd.xml.key
 cat <<EOF > /etc/yum.repos.d/insync.repo
 [insync]
 name=insync repo
-baseurl=http://yum.insync.io/fedora/\$releasever/
+baseurl=http://yum.insync.io/fedora/38/
 gpgcheck=1
 gpgkey=https://d2t3ff60b2tol4.cloudfront.net/repomd.xml.key
 enabled=1
